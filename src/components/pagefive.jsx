@@ -17,7 +17,10 @@ export default function PageFive({ page, setpage }) {
                         ))}
                     </div>
                     <p className="mt-4 text-lg italic font-semibold text-left md:-mt-16 ">
-                        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit nobis maiores perspiciatis illum laudantium at placeat. Ipsa nostrum voluptate cum laudantium totam cupiditate ab! Facere distinctio, omnis ullam adipisci sit veniam hic. A iste molestias quae voluptatem omnis labore possimus!"
+                        "Through its engaging and well-structured courses, Brilliant has taught me
+                        mathematical concepts that I previously struggled to understand. I now feel
+                        confident approaching both technical job interviews and real world problem
+                        solving situations."
                     </p>
                     <span className="mt-4 text-lg italic font-semibold text-left md:-mt-12 ">- Jacob S.</span>
                 </div>

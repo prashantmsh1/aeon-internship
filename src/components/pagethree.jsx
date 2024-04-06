@@ -12,7 +12,9 @@ export default function PageThree({ page, setpage }) {
                 <div className="grid grid-flow-row ">
                     <h1 className="my-auto text-4xl font-bold text-left ">You're in the right place</h1>
                     <p className="text-lg font-semibold text-left md:-mt-24 ">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit nobis maiores perspiciatis illum laudantium at placeat. Ipsa nostrum voluptate cum laudantium totam cupiditate ab! Facere distinctio, omnis ullam adipisci sit veniam hic. A iste molestias quae voluptatem omnis labore possimus!
+                        Brilliant gets you hands-on to help improve your professional
+                        skills and knowledge. You'll interact with concepts and solve
+                        fun problems in math, science, and computer science.
                     </p>
                 </div>
             </div>
