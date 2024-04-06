@@ -40,13 +40,13 @@ export default function PageTwo({ page, setpage }) {
     }
     return (
         <div className="w-full ">
-            <div className="grid w-4/5 grid-flow-row mx-auto space-y-4 ">
+            <div className="grid grid-flow-row mx-auto space-y-4 md:w-4/5 ">
                 <h1 className="text-4xl font-bold ">What describes you the best</h1>
                 <h4 className="text-lg font-medium text-gray-500 ">This will help us personalize your experience</h4>
 
 
             </div>
-            <div className="w-1/2 mx-auto mt-12 ">
+            <div className="mx-auto mt-12 md:w-1/2 ">
                 <div className="grid space-y-3">
                     {
                         interest.map((item, index) => {
