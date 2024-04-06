@@ -5,7 +5,7 @@ export default function PageThree({ page, setpage }) {
     return (
         <div>
 
-            <div className="grid grid-rows-2 mx-auto md:grid-cols-2 w-9/10">
+            <div className="grid grid-flow-row mx-auto md:grid-cols-2 w-9/10">
                 <div className="">
                     <img src={pully} alt="" className="mx-auto " />
                 </div>
@@ -16,7 +16,7 @@ export default function PageThree({ page, setpage }) {
                     </p>
                 </div>
             </div>
-            <button className="p-2 px-12 text-xl text-center text-white bg-black rounded-lg md:-mt-24" onClick={() => {
+            <button className="p-2 px-12 text-xl text-center text-white bg-black rounded-lg " onClick={() => {
                 setpage(page + 1)
             }}>
                 Continue
