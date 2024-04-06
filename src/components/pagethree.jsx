@@ -16,7 +16,7 @@ export default function PageThree({ page, setpage }) {
                     </p>
                 </div>
             </div>
-            <button className="p-2 px-12 text-xl text-center text-white bg-black rounded-lg" onClick={() => {
+            <button className="p-2 px-12 text-xl text-center text-white bg-black rounded-lg md:-mt-24" onClick={() => {
                 setpage(page + 1)
             }}>
                 Continue
