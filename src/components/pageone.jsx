@@ -48,8 +48,10 @@ export default function PageOne({ page, setpage }) {
         },
     ];
     const [selected, setSelected] = useState(null)
+    const [active, setActive] = useState(false)
     function handleClick(e) {
         setSelected(e)
+        setActive(true)
     }
     return (
         <div className="w-full ">
@@ -79,7 +81,7 @@ export default function PageOne({ page, setpage }) {
 
                 </div>
             </div>
-            <button className="p-2 px-12 mt-6 text-xl text-center text-white bg-black rounded-lg" onClick={() => {
+            <button className={`p-2 px-12 mt-6 text-xl text-center text-white  rounded-lg ${active ? 'bg-black ' : 'bg-slate-300'}`} onClick={() => {
                 setpage(page + 1)
             }}>
                 Continue

@@ -34,9 +34,10 @@ export default function PageTwo({ page, setpage }) {
 
     ];
     const [selected, setselected] = useState(null)
-
+    const [active, setactive] = useState(false)
     const handleClick = (index) => {
         setselected(index)
+        setactive(true)
     }
     return (
         <div className="w-full ">
@@ -64,7 +65,7 @@ export default function PageTwo({ page, setpage }) {
 
                 </div>
             </div>
-            <button className="p-2 px-12 mt-6 text-xl text-center text-white bg-black rounded-lg" onClick={() => {
+            <button className={`p-2 px-12 mt-6 text-xl text-center text-white bg-black rounded-lg ${active ? 'bg-black ' : 'bg-slate-300'}`} onClick={() => {
                 setpage(page + 1)
             }}>
                 Continue
